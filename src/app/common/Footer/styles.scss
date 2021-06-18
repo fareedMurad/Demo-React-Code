@@ -1,0 +1,43 @@
+footer#footer{
+    background-image: url(../../assets/images/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 650px;
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+}
+
+.footer-logo-box{
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    min-height: 40px;
+}
+
+.footer-category-wrapper{
+    grid-gap: 5px;
+    
+}
+.footer-category .title{
+    margin-bottom: 10px;
+}
+
+@media(max-width:767px){
+    footer#footer{
+        min-height: 1150px !important;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .footer-logo-box{
+        width: 162px !important;
+    }
+   br{
+       display: none
+   }
+   .category-cols .col-6{
+       margin-bottom: 36px;
+   }
+}

@@ -1,0 +1,261 @@
+@import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.cdnfonts.com/css/gotham-rounded");
+@import url("https://fonts.cdnfonts.com/css/open-sans");
+@import "./colours.scss";
+
+body {
+    color: $dark-100;
+}
+
+h1 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: "Gotham Rounded";
+    line-height: 43.2px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 32px;
+    font-style: normal;
+    font-family: "Gotham Rounded";
+    line-height: 38.4px;
+    font-weight: 700;
+}
+h2.light {
+    font-family: Comenia Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+h4 {
+    font-size: 24px;
+    font-style: normal;
+    font-family: "Gotham Rounded";
+    line-height: 28px;
+    font-weight: 700;
+}
+h3.light {
+    font-family: "Open Sans" !important;
+    line-height: 32px !important;
+    font-weight: 300 !important;
+}
+h3.dark {
+    font-family: Comenia Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 18px;
+}
+h3 {
+    font-size: 18px;
+    font-style: normal;
+    font-family: "Open Sans";
+    line-height: 24.51px;
+    font-weight: 700;
+}
+h5 {
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Open Sans";
+    line-height: 24.51px;
+    font-weight: 600;
+    color: $dark-100;
+}
+
+h6 {
+    font-family: "Gotham Rounded";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+
+.nav-link {
+    font-family: "Gotham Rounded";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-style: normal;
+    font-family: "Open Sans";
+    line-height: 24.51px;
+    font-weight: 400;
+    color: $dark-100;
+}
+button {
+    border-radius: 10px;
+    height: 44px;
+    max-width: 355px;
+    min-width: 142px;
+    text-align: center;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+button.normal {
+    width: 211px;
+}
+
+a.bold {
+    font-family: "Gotham Rounded";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+}
+a.normal {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.1em;
+}
+p.small {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 19px !important;
+    letter-spacing: 0.1em !important;
+}
+.text-gray-white{
+    color: $gray-light !important;
+}
+
+.dark-gradient {
+    background-image: linear-gradient($primary-dark, #005072, #56b0af);
+}
+.bg-primary-5 {
+    background-color: $primary-5;
+}
+.bg-primary-10 {
+    background-color: $primary-10;
+}
+.primary-100-gradient-bg {
+    background: linear-gradient(180deg, #cde4e4 14.5%, #7ccbdd 50%);
+}
+.secondary-button-gradient-bg {
+    background: linear-gradient(180deg, $secondary 0%, #f1592a 100%);
+}
+.secondary-button-gradient-bg:hover {
+    background: linear-gradient(180deg, #ac300a 0%, #f1592a 100%);
+    transition: all 0.8s ease;
+}
+.nav-bar-dropdown-gradient {
+    background: linear-gradient(180deg, #52b0ae 0%, #7eccd9 100%);
+}
+.primary-900-gradient-bg {
+    background: linear-gradient(180deg, $primary-900 0%, $primary-20 100%);
+}
+.card-form-600-gradient-bg {
+    background: linear-gradient(180deg, rgba(178, 231, 237, 0.5) 0%, #c7e3e3 73.44%, #7ccbdd 100%);
+}
+input {
+    border: none !important;
+    opacity: 0.6 !important;
+}
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.input-text {
+    font-family: "Open Sans" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
+    letter-spacing: 0.1em !important;
+    color: $primary-50 !important;
+}
+.input-text::placeholder {
+    color: $primary-50;
+}
+.row {
+    padding: 0 !important;
+}
+.color-primary {
+    color: $primary;
+}
+.color-orange {
+    color: $secondary;
+}
+.color-primary-dark {
+    color: $primary-dark !important;
+}
+.color-primary-80 {
+    color: $primary-80;
+}
+.color-primary-900 {
+    color: $primary-900;
+}
+.primary-dark-300 {
+    color: $primary-dark-300;
+}
+.primary-dark-900 {
+    color: $primary-dark-900;
+}
+.labal-color-dark{
+    color: $labal-color;
+}
+.color-dark {
+    color: $dark-100 !important;
+}
+.bg-primary {
+    background-color: $primary-900;
+}
+.bg-gray-light {
+    background-color: $gray-light;
+}
+.primary-50-gradient-bg {
+    background: linear-gradient(270.75deg, $primary-50 0.39%, rgba(205, 228, 228, 0.29) 117.71%);
+}
+
+@media (max-width: 360px) {
+    .primary-50-gradient-bg-sm {
+        background: unset !important;
+        display: none !important;
+    }
+}
+@media (max-width: 640px) {
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    h2 {
+        font-size: 18px;
+        line-height: 33px;
+    }
+    button {
+        font-size: 14px;
+        line-height: 16.41px;
+    }
+    a.normal {
+        font-size: 12px;
+    }
+}
+
+// @media (max-width: 992px){
+//     img{
+//         width: 100% !important;
+//     }
+// }

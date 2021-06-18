@@ -1,0 +1,28 @@
+.section-2 .content-wrapper {
+    grid-gap: 50px;
+}
+
+.section-2 .content-wrapper .first-box {
+    width: calc(100% - 179px);
+    transform: translateX(179px);
+}
+
+@media (max-width: 775px) {
+
+    .section-2  .container{
+        /* margin: auto 0 !important; */
+        max-width: initial;
+    }
+   
+}
+
+@media (max-width: 1024px) {
+    .section-2 .content-wrapper .first-box {
+        width: calc(100% - 131px);
+        transform: translateX(131px);
+    }
+
+   
+}
+
+

@@ -1,0 +1,16 @@
+.section-6 .grouped-vectors {
+    transform: translateY(-90px);
+}
+
+.section-6 .content-wrapper {
+    min-height: 423px;
+}
+
+@media (max-width: 992px) {
+    .section-6 .grouped-vectors {
+        transform: unset;
+    }
+    .section-6 .content-wrapper {
+        min-height: fit-content !important;
+    }
+}

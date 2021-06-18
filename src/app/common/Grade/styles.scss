@@ -1,0 +1,51 @@
+@import "../../../app/assets/colours.scss";
+
+.grade-section-wrapper-component {
+    .grade-wrapper {
+        // background-color: #fff;
+        width: 104px;
+        height: 80px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 10px 0px #d9f3f6;
+    }
+    .grade-wrapper:hover {
+        cursor: pointer;
+        background-color: $primary-50;
+    }
+    .active-grade {
+        background-color: #fff !important;
+    }
+    .active-grade::before {
+        content: ".";
+        background-color: #fff;
+        width: 91px;
+        position: absolute;
+        clip-path: polygon(50% 0%, 100% 0, 50% 49%, 0 0) !important;
+        height: 50px;
+        bottom: -49px;
+        left: 7px;
+    }
+
+    @media (max-width: 992px) {
+        .active-grade::before {
+            display: none;
+        }
+        .active-grade {
+            background-color: $primary-50!important;
+        }
+    }
+    @media (max-width: 640px) {
+        .grade-wrapper{
+            height: 40px;
+        }
+        .active-grade::before {
+            display: none;
+        }
+        .active-grade {
+            background-color: $primary-50!important;
+        }
+    }
+}

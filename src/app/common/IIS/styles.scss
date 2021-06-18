@@ -1,0 +1,45 @@
+@import "../../assets/colours.scss";
+
+.custom-list::marker {
+    height: 9px;
+    font-size: 26px;
+    line-height: 1;
+    color: $primary;
+}
+.box {
+    padding: 24px;
+    transition: all 0.3s ease;
+}
+.section2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.IIS-images-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.IIS-images-wrapper img{
+    transition: all 0.3s ease;
+}
+.box h4 {
+    margin-bottom: 5px !important;
+}
+#vector3{
+    width: 0% !important;
+}
+.box:hover {
+    border-radius: 10px;
+    box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.1);
+    .color-primary-dark {
+        transition: all 0.3s ease;
+        color: $primary !important;
+    }
+}
+
+
+@media(max-width:992px){
+    .box{
+        padding: 24px 0;
+    }
+}

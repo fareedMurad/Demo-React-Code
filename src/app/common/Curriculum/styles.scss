@@ -1,0 +1,57 @@
+@import "../../assets/colours.scss";
+
+.helper-curriculum-box {
+    width: 12.3%;
+    img{
+        
+        border-radius: 50%;
+    }
+}
+.selected {
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: inline !important;
+        transform: scale(1.1);
+        box-shadow: 0px 0px 36px 6px $primary;
+    }
+}
+.enabled-helper-curriculum-box:hover {
+    .image1 {
+        display: none;
+    }
+    .image2 {
+        display: inline !important;
+        transform: scale(1.1);
+    }
+}
+.helper-curriculum-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+.curriculum-section .content-box {
+    width: 650px;
+}
+
+
+.curriculum-section .boxes-wrapper {
+    grid-row-gap: 15px;
+}
+@media (max-width: 992px) {
+    .helper-curriculum-box {
+        width: 24.3%;
+    }
+    .curriculum-section .content-box {
+        width: fit-content !important;
+    }
+}
+
+@media (max-width: 640px) {
+    .helper-curriculum-box {
+        width: 33%;
+    }
+}

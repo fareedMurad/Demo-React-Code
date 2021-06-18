@@ -1,0 +1,28 @@
+.image-text-row{
+    .heading-wrapper {
+        margin: 50px 0;
+    }
+    .image-text-row {
+        grid-row-gap: 50px;
+        .image-text-boxes-wrpper {
+            grid-gap: 20px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        .image-text-row {
+            img {
+                width: 100% !important;
+            }
+        }
+    }
+    @media (max-width: 640px) {
+        .heading-wrapper {
+            margin: 15px 0;
+        }
+        .image-text-row {
+            grid-row-gap: 20px;
+                
+        }
+    }
+}

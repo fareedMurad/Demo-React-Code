@@ -1,0 +1,17 @@
+.section-7 .grouped-vectors {
+    object-fit: contain;
+}
+.section-7 .content-wrapper {
+    min-height: 357px;
+}
+.section-7 .year-vector-right-box {
+    transform: translateY(-78px) !important;
+    top: 0 !important;
+}
+
+
+@media (max-width: 992px) {
+    .section-7 .content-wrapper {
+        min-height: fit-content !important;
+    }
+}
